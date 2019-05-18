@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+*body{
+    width: 100%;
+    display:-webkit-box;
+    -webkit-box-pack: center;
+        }
+        #big_wrapper{
+    max-width: 100%;
+    margin: 20px auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+} 
+#top_header{
+    background-color: #D3D3D3;
+    border: 3px solid #D3D3D3;
+    padding: 20px;
+    text-align: default;
+}
+#top_menu{
+	padding-right: 150px;
+	text-align: right;
+border: #D3D3D3;
+background: #D3D3D3;
+color: black;
+
+}
+#top_menu li{
+text-align: right;
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    font: bold 20px Tahoma;
+
+}
+#aside_sub{
+	float: right;
+
+	border: 1px solid white;
+	width: 300px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: white;
+}
+#the_footer{
+	clear: both;
+	color: white;
+	background-color: black;
+	padding: 20px;
+	border-top: 2px solid green;
+	text-align: center;
+}
+#main{
+	background-color: grey;
+	color: black;
+
+}
+li a {
+    display: block;
+    color: black;
+    padding: 8px 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+
+}
+li a:active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+}
+.center{
+	float: left;
+	border: 1px solid white;
+	width: 300px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: white;
+
+}	
+input[type=text] {
+    width: 80%;
+
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}    
+input[type=textarea] {
+    width: 80%;
+    height: 150px;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.button1 {
+	margin-left: 50px;
+	font-size: 20px;
+	padding: 15px 32px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+}
+.button1:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+input[type=password]{
+	width: 80%;
+
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+
+}
+#new_div{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+#mn_section{
+	border: 1px solid blue;
+	-webkit-box-flex: 1;
+	margin: 20px;
+	padding: 20px;
+}
+#sd_section{
+	border: 1px solid grey;
+	width: 300px;
+	margin-top: 0px;
+	margin-left: 20px;
+	padding: 5px;
+	background: #3CB371;
+
+}
+form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
